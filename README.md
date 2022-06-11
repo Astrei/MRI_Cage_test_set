@@ -15,7 +15,7 @@ It is also possible to use this setup to find a source of external RF interferen
 
 
 # Building instructions
-The antenna element is made of rigid 3.5 mm coax cable. It's better to use some round object with a proper diameter as a base for it (a 3d printer plastic spool, for example). Just turn the cable around it and fix it by soldering. Some manual adjustments are also required to make a perfect circle. After this, cut the gap in the upper part by using side cutters. Leave ~40 mm of the cable in the bottom part for the SMA connector:
+The antenna element is made of rigid 3.5 mm coax cable. It's better to use some round object with a proper diameter as a base (a 3d printer plastic spool, for example). Just turn the cable around and fix it by soldering. Some copper foil could be helpful here. Manual adjustments are also required to make a perfect circle. After this, cut the gap in the upper part by using side cutters. Leave ~40 mm of the cable in the bottom part for the SMA connector:
 
 ![Building - antenna element](/Pictures/03_Antenna-element.jpg)
 
