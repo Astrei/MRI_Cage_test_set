@@ -31,4 +31,7 @@ The grip is also divided into two parts, which must be glued. Parts 03_Main_fram
 
 ![Antenna matching box](/Pictures/05_Box.jpg)
 
-In the original idea, there are six matching boxes for each antenna. But you can change this number depending on your needs. You need to add some glue for the upper letters. If the top cover does not fit the box without a hammer, cut off its inner rigs with pliers.
+In the original idea, there are six matching boxes for each antenna. But you can change this number depending on your needs. You need to add some glue for the upper letters. If the top cover does not fit the box without a hammer, cut off its inner rigs with pliers. Here are the values for PCB elements at each frequency:
+
+![Antenna matching box](/Pictures/07_Matching.jpg)
+This is the most complicated step where you need a VNA. Even if you accurately reproduce all dimensions of the antenna element, there is no guarantee that the antenna will be tuned to the predicted frequencies. For fine tuining its needed to combine usual capacitors with the variable ones. I used 5-20 pF trimmer caps everythere. Inductance could be tuned by changing its shape slightly. After the tuning it could be fixed by the hot glue.
