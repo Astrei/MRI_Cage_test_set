@@ -31,14 +31,20 @@ The grip is divided into two parts again, which must be glued. Parts 03_Main_fra
 
 ![Antenna matching box](/Pictures/05_Box.jpg)
 
-In the original idea, there are six matching boxes for each antenna. But you can change this number depending on your needs. PCB outputs are SMA 1.6 mm. Here you also have to add some glue for the upper letters. If the top cover does not fit the box without a hammer, cut off its inner rigs with pliers. Thats all about the mechanical part. The last step is the most complicated and for it you need to find a VNA.
+In the original idea, there are six matching boxes for each antenna. But you can change this number depending on your needs. PCB outputs are SMA 1.6 mm. Here you also have to add some glue for the upper letters. If the top cover does not fit the box without a hammer, cut off its inner rigs with pliers. Thats all about the mechanical part. 
+
+# Tuning instructions
+The last step is the most complicated and for it you need to find a VNA.
 
 ![Antenna matching box](/Pictures/08_Matching2.jpg)
 
-To match the antennas, I used the basic L-network circuit. This requires only two elements. For the first three frequencies considered for low-field MRI application, these will be capacitors only. For higher frequencies it would be a combination of capacitors and handmade air inductors. Here are the reference values I got in my experiments:
+To match the antennas, I applied the basic L-network circuit. This requires only two elements. For the first three frequencies considered for low-field MRI application, these will be capacitors only. For higher frequencies it would be a combination of capacitors and handmade air inductors. Here are the reference values I got in my experiments:
 
 ![Antenna matching box](/Pictures/07_Matching.jpg)
 
-Even if you accurately reproduce all dimensions of the coax element, there is no guarantee that the antenna will be tuned to the predicted frequencies. For fine tuning, it is necessary to performe the matching using a VNA and Smith chart. It is required to ensure that the operating frequency marker is in its center means antenna is perfectly matched. Thus, all element values shown above should be able to be changed. To do so, I combined constant capacitors with variables (I used 5-20 pF trimmer capacitors everywhere). Inductances can be tuned by slightly changing their shape. Hot glue might fix their value when its done.
+Unfortunately, even if you accurately reproduce all dimensions of the coax element, there is no guarantee that the antenna will be tuned to the predicted frequencies with these values. For fine tuning, it is necessary to performe the matching using a VNA and Smith chart. You need to make sure that the operating frequency marker is in the center of the diagram, which means perfect antenna matching. Thus, all element values shown above should be able to be changed. To do so, I combined constant capacitors with variables everywhere, or just used variables only (5-20 pF trimmers are perfect for this). Inductors can be tuned by slightly changing their shape. Hot glue can fix their value after the setting is completed. But be careful with the glue and the positioning of the inductors in general, as the space in the matching box is limited and the top needs to be covered after mounting the components.
 
+Finally, you should get a complete antenna set ready to work!
+
+![Antenna matching box](/Pictures/00_Photo.jpg)
 
