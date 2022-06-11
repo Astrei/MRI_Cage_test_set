@@ -25,7 +25,7 @@ It's better to use some round object with a proper diameter as a base (a 3d prin
 
 The antenna frame consists of two parts that should be glued together (Main_frame_P1 and P2). Label with my e-mail is optional and also on glue. All the screws in the picture are M4. 
 
-![Antenna frame](/Pictures/05_Grip and stand.jpg)
+![Antenna grip](/Pictures/06_Grip.jpg)
 
 The grip is also divided into two parts, which must be glued together. Parts 03_Main_frame_P2 and 04_Grip_P1 simply snap together and can be pulled apart if needed.
 
