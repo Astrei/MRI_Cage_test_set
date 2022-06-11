@@ -23,7 +23,7 @@ It's better to use some round object with a proper diameter as a base (a 3d prin
 
 ![Antenna frame](/Pictures/04_Main_frame.jpg)
 
-The antenna frame consists of two parts that should be glued together (Main_frame_P1 and P2). Label with my e-mail is optional and also on the glue. All the screws here are M4. Nuts could be pressed into part 02_Main_frame_P1 with pliers.
+The antenna frame consists of two parts that should be glued together (Main_frame_P1 and P2). Label with my e-mail is optional and also on the glue. All the screws here are plastic M4. Nuts could be pressed into part 02_Main_frame_P1 with pliers.
 
 ![Antenna grip](/Pictures/06_Grip.jpg)
 
