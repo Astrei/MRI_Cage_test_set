@@ -20,5 +20,5 @@ The antenna element is made of rigid 3.5 mm coax cable. It's better to use some 
 ![Building - antenna element](/Pictures/03_Antenna-element.jpg)
 
 The antenna frame consists of two parts that should be glued together (Main_frame_P1 and P2). Label with my e-mail is optional and also on glue. All the screws in the picture are M4.
-
+![Building - antenna element](/Pictures/03_Antenna-element.jpg)
 ![Building - antenna main frame](/Pictures/04_Supporting part.jpg)
