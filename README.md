@@ -11,7 +11,7 @@ Antennas could be used with any type of 50 Ohm RF equipment to perform measureme
 In the left photo, one antenna is placed on a tripod inside the scanning room and connected to a signal generator. After closing the door, you can check with another antenna how much the signal will decrease in value (attenuation measurement). In the right photo, a HackRF shows an MRI signal outside the RF cage. The door insulation is certainly  damaged in this case.
 
 ![Interference example picture](/Pictures/02_Tests2.jpg)
-It is also possible to use this setup to find a source of external RF interference that affects your MR-image quality. In this example, an old power supply in the cabinet has some problems.
+It is also possible to use this antenna to find a source of external RF interference that affects your MR-image quality. In this example, an old power supply in the cabinet has some problems.
 
 
 # Building instructions
