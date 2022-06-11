@@ -5,7 +5,7 @@ This is an open-source 3d printed antenna set for magnetic resonance imaging (MR
 
 
 # Examples of using
-Antennas could be used with any type of 50 Ohm RF equipment to perform measurements. In general, antenna #1 is connected to the signal generator and antenna #2 is connected to the receiver (spectrum analyzer, SDR, etc.). The MRI scanner itself can also be used as a signal source. In this case, one antenna would be sufficient.
+Antennas could be used with any type of 50 Ohm RF equipment to perform measurements. In general, antenna #1 is connected to the signal generator and antenna #2 is connected to the receiver (spectrum analyzer, SDR, etc.). The MRI scanner itself can also be employed as a signal source. In this case, one antenna would be sufficient.
 
 ![Measurements example picture](/Pictures/02_Tests.jpg)
 In the left photo, one antenna is placed on a tripod inside the scanning room and connected to a signal generator. After closing the door, you can check with another antenna how much the signal will decrease in value (attenuation measurement). In the right photo, a HackRF shows an MRI signal outside the RF cage. The door insulation is certainly  damaged in this case.
