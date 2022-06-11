@@ -31,4 +31,4 @@ The grip is also divided into two parts, which must be glued. Parts 03_Main_fram
 
 ![Antenna matching box](/Pictures/05_Box.jpg)
 
-In the original design, there are six matching boxes for every antenna. But you can change this amount depending on your needs.
+In the original design, there are six matching boxes for every antenna. But you can change this number depending on your needs. There are also need in glue for upper letters. If the top cover does not fit, cut off its inner rigs with pliers.
