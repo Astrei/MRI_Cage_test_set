@@ -19,7 +19,7 @@ The antenna element is made of rigid 3.5 mm coax cable. A semi rigid cable is al
 
 ![Antenna element](/Pictures/03_Antenna-element.jpg)
 
-It's better to use some round object with a proper diameter as a base (a 3d printer plastic spool, for example). Just turn the cable around and fix it by soldering. Some copper foil could be helpful here. Manual adjustments are also required to make a perfect circle. After this, cut the gap in the upper part by using side cutters. Leave ~40 mm of the cable in the bottom part for the SMA male connector:
+It's better to use some round object with a proper diameter as a base (a 3d printer plastic spool, for example). Just turn the cable around and fix it by soldering. Some copper foil could be helpful here. Manual adjustments are required to make a perfect circle. After this, cut the gap in the upper part by using side cutters. Leave ~40 mm of the cable in the bottom part for the SMA male connector:
 
 ![Antenna frame](/Pictures/04_Main_frame.jpg)
 
@@ -27,15 +27,18 @@ The antenna frame consists of two parts that should be glued together (Main_fram
 
 ![Antenna grip](/Pictures/06_Grip.jpg)
 
-The grip is also divided into two parts, which must be glued. Parts 03_Main_frame_P2 and 04_Grip_P1 simply snap together and can be pulled apart if needed. The same story with the stands. Although the grip could be installed in some types of tripods, the 3D printed stand is more useful in my opinion.
+The grip is divided into two parts again, which must be glued. Parts 03_Main_frame_P2 and 04_Grip_P1 simply snap together and can be pulled apart if needed. The same story with the stands. Although the grip could be installed in some types of tripods, I found the 3d printed stand to be even more useful.
 
 ![Antenna matching box](/Pictures/05_Box.jpg)
 
-In the original idea, there are six matching boxes for each antenna. But you can change this number depending on your needs. You need to add some glue for the upper letters. If the top cover does not fit the box without a hammer, cut off its inner rigs with pliers. Thats all about the mechanical part. The last step is the most complicated and for it you need to find a VNA.
+In the original idea, there are six matching boxes for each antenna. But you can change this number depending on your needs. PCB outputs are SMA 1.6 mm. Here you also have to add some glue for the upper letters. If the top cover does not fit the box without a hammer, cut off its inner rigs with pliers. Thats all about the mechanical part. The last step is the most complicated and for it you need to find a VNA.
 
 ![Antenna matching box](/Pictures/08_Matching2.jpg)
-To match the antennas, I used the basic L-matching circuit. This requires only two elements. For the first three frequencies considered for low-field MRI, these will be capacitors only. For higher frequencies it would be a combination of capacitors and handmade air inductors.
 
-This  Even if you accurately reproduce all dimensions of the antenna element, there is no guarantee that the antenna will be tuned to the predicted frequencies. For fine tuining its needed to combine usual capacitors with the variable ones. I used 5-20 pF trimmer caps everythere. Inductance could be tuned by changing its shape slightly. After the tuning it could be fixed by the hot glue.
+To match the antennas, I used the basic L-network circuit. This requires only two elements. For the first three frequencies considered for low-field MRI application, these will be capacitors only. For higher frequencies it would be a combination of capacitors and handmade air inductors. Here are the reference values I got in my experiments:
+
+![Antenna matching box](/Pictures/07_Matching.jpg)
+
+Even if you accurately reproduce all dimensions of the coax element, there is no guarantee that the antenna will be tuned to the predicted frequencies. For fine tuning, it is necessary to performe the matching using a VNA and Smith chart. It is required to ensure that the operating frequency marker is in its center means antenna is perfectly matched. Thus, all element values shown above should be able to be changed. To do so, I combined constant capacitors with variables (I used 5-20 pF trimmer capacitors everywhere). Inductances can be tuned by slightly changing their shape. Hot glue might fix their value when its done.
 
 
