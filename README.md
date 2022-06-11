@@ -15,18 +15,20 @@ It is also possible to use this setup to find a source of external RF interferen
 
 
 # Building instructions
-The antenna element is made of rigid 3.5 mm coax cable. 
+The antenna element is made of rigid 3.5 mm coax cable. Self-rigid is also suitable for it but not so stable mechanically.
 
 ![Antenna element](/Pictures/03_Antenna-element.jpg)
 
-It's better to use some round object with a proper diameter as a base (a 3d printer plastic spool, for example). Just turn the cable around and fix it by soldering. Some copper foil could be helpful here. Manual adjustments are also required to make a perfect circle. After this, cut the gap in the upper part by using side cutters. Leave ~40 mm of the cable in the bottom part for the SMA connector:
+It's better to use some round object with a proper diameter as a base (a 3d printer plastic spool, for example). Just turn the cable around and fix it by soldering. Some copper foil could be helpful here. Manual adjustments are also required to make a perfect circle. After this, cut the gap in the upper part by using side cutters. Leave ~40 mm of the cable in the bottom part for the SMA male connector:
 
 ![Antenna frame](/Pictures/04_Main_frame.jpg)
 
-The antenna frame consists of two parts that should be glued together (Main_frame_P1 and P2). Label with my e-mail is optional and also on glue. All the screws in the picture are M4. 
+The antenna frame consists of two parts that should be glued together (Main_frame_P1 and P2). Label with my e-mail is optional and also on the glue. All the screws here are M4. Nuts could be pressed into part 02_Main_frame_P1 with pliers.
 
 ![Antenna grip](/Pictures/06_Grip.jpg)
 
-The grip is also divided into two parts, which must be glued together. Parts 03_Main_frame_P2 and 04_Grip_P1 simply snap together and can be pulled apart if needed. The same story with the stands.
+The grip is also divided into two parts, which must be glued. Parts 03_Main_frame_P2 and 04_Grip_P1 simply snap together and can be pulled apart if needed. The same story with the stands.
 
 ![Antenna matching box](/Pictures/05_Box.jpg)
+
+In the original design, there are six matching boxes for every antenna. But you can change this amount depending on your needs.
