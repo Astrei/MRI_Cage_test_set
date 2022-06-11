@@ -27,5 +27,6 @@ The antenna frame consists of two parts that should be glued together (Main_fram
 
 ![Antenna grip](/Pictures/06_Grip.jpg)
 
-The grip is also divided into two parts, which must be glued together. Parts 03_Main_frame_P2 and 04_Grip_P1 simply snap together and can be pulled apart if needed.
+The grip is also divided into two parts, which must be glued together. Parts 03_Main_frame_P2 and 04_Grip_P1 simply snap together and can be pulled apart if needed. The same story with the stands.
 
+![Antenna matching box](/Pictures/05_Box.jpg)
