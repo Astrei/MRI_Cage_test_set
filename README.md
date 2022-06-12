@@ -44,7 +44,7 @@ To match the antennas, I applied the basic L-network circuit. This requires only
 
 Unfortunately, even if you accurately reproduce all dimensions of the coax element, there is no guarantee that the antenna will be tuned to the predicted frequencies with these values. For fine tuning, it is necessary to performe the matching using a VNA and Smith chart. You need to make sure that the operating frequency marker is in the center of the chart, which means perfect antenna matching. Thus, all element values shown above should be able to be changed. To do so, I combined constant capacitors with variables everywhere, or just used variables only (5-20 pF trimmers are perfect for this). Inductors can be tuned by slightly changing their shape. Hot glue can fix their value after the setting is completed. But be careful with the glue and the positioning of the inductors in general, as the space in the matching box is limited and the top needs to be covered after mounting the components.
 
-Finally, you should get a complete antenna set ready to work! If you succeed with it, or you have some useful comments please share your experience with me. Good luck!
+Finally, you should get a complete antenna set ready to work!
 
 ![Antenna matching box](/Pictures/00_Photo.jpg)
 
